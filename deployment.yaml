@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: saiteja562/mvnjavasonar:green-5   # 🔁 Replace with your actual image
+        image: saiteja562/mvndocker:v2   # 🔁 Replace with your actual image
         ports:
         - containerPort: 80
 
