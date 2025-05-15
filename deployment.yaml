@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: saiteja562/mvndocker:v2   # 🔁 Replace with your actual image
+        image: saicharan12121/java_calculator:1  # 🔁 Replace with your actual image
         ports:
         - containerPort: 80
 
@@ -30,4 +30,4 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8888
+    targetPort: 8085
